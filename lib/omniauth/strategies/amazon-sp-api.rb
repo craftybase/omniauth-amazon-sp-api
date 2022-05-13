@@ -15,6 +15,7 @@ module OmniAuth
                token_url: 'https://api.amazon.com/auth/o2/token'
              }
 
+      uid { selling_partner_id }
       extra do
         {
           'selling_partner_id' => selling_partner_id,
